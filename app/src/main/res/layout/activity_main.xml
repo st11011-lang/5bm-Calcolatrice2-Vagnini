@@ -75,13 +75,13 @@
 
     <Button
         android:id="@+id/cancellaEntrata"
-        android:layout_width="150dp"
+        android:layout_width="70dp"
         android:layout_height="wrap_content"
         android:text="C"
         android:textAppearance="@style/TextAppearance.AppCompat.Large"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.796"
+        app:layout_constraintHorizontal_bias="0.609"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
         app:layout_constraintVertical_bias="0.271" />
@@ -250,7 +250,7 @@
         app:layout_constraintVertical_bias="0.367" />
 
     <ImageView
-        android:id="@+id/imageView2"
+        android:id="@+id/immagine"
         android:layout_width="409dp"
         android:layout_height="100dp"
         android:layout_marginTop="4dp"
@@ -260,5 +260,17 @@
         app:layout_constraintTop_toTopOf="parent"
         app:layout_constraintVertical_bias="1.0"
         app:srcCompat="@drawable/mp" />
+
+    <Button
+        android:id="@+id/diviso"
+        android:layout_width="70dp"
+        android:layout_height="wrap_content"
+        android:text="/"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.853"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.273" />
 
 </androidx.constraintlayout.widget.ConstraintLayout>
